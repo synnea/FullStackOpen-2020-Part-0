@@ -1,0 +1,10 @@
+title User Submits on SPA
+
+note over browser:
+the reload function is triggered and the new note 
+is added to the DOM
+end note 
+
+browser->server: HTTP POST to the new_note_spa route
+server->browser: Status Code 201 created
+
